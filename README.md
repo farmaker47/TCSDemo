@@ -4,5 +4,5 @@
 
 kkkkkkkkk
 
-![screenshot_2019-02-16-13-11-55-128](https://user-images.githubusercontent.com/26084498/52906276-16eecf80-3251-11e9-8c42-81dc868c2a33.jpeg)
+
 
