@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherActivity"
+    android:background="#fff"
+    tools:showIn="@layout/activity_weather">
+
+    <ImageView
+        android:id="@+id/imageSearchFragment"
+        android:layout_width="@dimen/emptyRecyclerViewImage"
+        android:layout_height="@dimen/emptyRecyclerViewImage"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <com.george.tcsdemo.utils.SoloupisEmptyRecyclerView
+        android:id="@+id/recyclerViewSearchFragment"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <ProgressBar
+        android:id="@+id/progressSearchFragment"
+        android:layout_marginTop="@dimen/weatherProgressBarMarginTop"
+        style="@style/progressBar" />
+
+</RelativeLayout>
