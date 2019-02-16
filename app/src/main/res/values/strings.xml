@@ -73,7 +73,7 @@
     <string name="condition_unknown">Unknown</string>
     <string name="buttonPrompt">Click for weather forecast!</string>
     <string name="editTextMessageInfo">Wait for the marker to appear and click on its info balloon for 3 day weather forecast.</string>
-    <string name="noLocationFound">No location found. Please try again</string>
+    <string name="noLocationFound">No location found. Please try again!</string>
     <string name="noResultsFound">No results found</string>
     <string name="daysForecastForScrollingTextView">3 day Forecast for:\t</string>
 
