@@ -14,7 +14,7 @@ MapsActivity handles rotation and doesn't reload map. In addition when search of
 ### This is the second screen
 ![screenshot_2019-02-17-01-32-46-989](https://user-images.githubusercontent.com/26084498/52906428-51a63700-3254-11e9-8cc2-7596b5b102cc.jpeg)
 
-
+The Recycler view in the second screen has a cool animation and is formated to keep position after rotation. In addition after rotation doesn't reload info from the api. Because title was very long a rolling TextView was added to the toolbar. The activity makes use of Retrofit library to fetch info from the weather API.
 
 
 
