@@ -20,15 +20,15 @@ The Recycler view in the second screen has a cool animation and is formated to k
 Espresso has been used to perform some simple test. It handles check for internet connection, check of dialog boxes and idling resources so to wait for the recycler view to appear in second screen.
 
 ### Other features are:
-*Icons at recycler view have been added as .xml to look perfect in different screen sizes
+-Icons at recycler view have been added as .xml to look perfect in different screen sizes
 
-*Different layout has been made for bigger screens like tablets
+-Different layout has been made for bigger screens like tablets
 
-*All strings are in strings.xml to help for apps translation
+-All strings are in strings.xml to help for apps translation
 
-*All dimens are in dimens.xml
+-All dimens are in dimens.xml
 
-*Styles have been created for different Views
+-Styles have been created for different Views
 
 ### Enjoy
 
