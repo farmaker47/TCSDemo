@@ -14,7 +14,17 @@ MapsActivity handles rotation and doesn't reload map. In addition when search of
 ### This is the second screen
 ![screenshot_2019-02-17-01-32-46-989](https://user-images.githubusercontent.com/26084498/52906428-51a63700-3254-11e9-8cc2-7596b5b102cc.jpeg)
 
-The Recycler view in the second screen has a cool animation and is formated to keep position after rotation. In addition after rotation doesn't reload info from the api. Because title was very long a rolling TextView was added to the toolbar. The activity makes use of Retrofit library to fetch info from the weather API.
+The Recycler view in the second screen has a cool animation and is formated to keep position after rotation. In addition after rotation doesn't reload info from the api. Because title was very long a rolling TextView was added to the toolbar. The activity makes use of Retrofit library to fetch info.
 
+### Android testing patterns
+Espresso has been used to perform some simple test. It handles check for internet connection, check of dialog boxes and idling resources so to wait for the recycler view to appear in second screen.
 
+### Other features are:
+*Icons at recycler view have been added as .xml to look perfect in different screen sizes
+*Different layout has been made for bigger screens like tablets
+*All strings are in strings.xml to help for apps translation
+*All dimens are in dimens.xml
+*Styles have been created for different Views
+
+### Enjoy
 
