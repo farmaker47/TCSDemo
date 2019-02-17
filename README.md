@@ -31,5 +31,8 @@ Espresso has been used to perform some simple test. It handles check for interne
 ### LinkedIn info
 - https://www.linkedin.com/in/george-soloupis-346a40135/
 
+### Small video
+- https://youtu.be/92YPJVD64UA
+
 ### Enjoy :+1:
 
