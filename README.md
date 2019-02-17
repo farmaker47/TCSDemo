@@ -7,7 +7,7 @@ App uses Google Maps, Retrofit, Volley, Espresso, Custom Views(custom RecyclerVi
 ### This is the first screen
 ![screenshot_2019-02-16-13-12-09-045](https://user-images.githubusercontent.com/26084498/52906267-e444d700-3250-11e9-8d3d-ad086bb766bf.jpeg)
 
-Application handles internet connection status and both automatic and manual input of address to fetch specific location. For automatic location security exception is handled after Marshmallow. For manual location user writes address inside edittext field and google api fetch location. Because 'geocoder.getLocationFromName' didn't work app uses Volley library to fetch json from google maps api which provides coordinates from address. After fetching coordinates we find location with 'geocoder.getLocation'. App handles false input of address!
+Application handles internet connection status and both automatic and manual input of address to fetch specific location. For automatic location security exception is handled after Marshmallow. For manual location user writes address inside edittext field and google api fetch location. Because *geocoder.getLocationFromName* didn't work app uses Volley library to fetch json from google maps api which provides coordinates from address. After fetching coordinates we find location with *geocoder.getLocation*. App handles false input of address!
 
 MapsActivity handles rotation and doesn't reload map. In addition when search of address has begun, after rotation keeps waiting for result address. Snackbar appears after adding a marker on the map to inform user to check location and click the ballon's marker to go to next screen to find weather forecast.
 
@@ -20,15 +20,14 @@ The Recycler view in the second screen has a cool animation and is formated to k
 Espresso has been used to perform some simple test. It handles check for internet connection, check of dialog boxes and idling resources so to wait for the recycler view to appear in second screen.
 
 ### Other features are:
--Icons at recycler view have been added as .xml to look perfect in different screen sizes
+- Icons at recycler view have been added as .xml to look perfect in different screen sizes
+- Different layout has been made for bigger screens like tablets
+- All strings are in strings.xml to help for apps translation
+- All dimens are in dimens.xml
+- Styles have been created for different Views
 
--Different layout has been made for bigger screens like tablets
+### LinkedIn info
+- https://www.linkedin.com/in/george-soloupis-346a40135/
 
--All strings are in strings.xml to help for apps translation
-
--All dimens are in dimens.xml
-
--Styles have been created for different Views
-
-### Enjoy
+### Enjoy :+1:
 
