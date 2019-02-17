@@ -19,7 +19,6 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" >
             <TextView
                 android:id="@+id/scrollingTextView"
-                android:text=""
                 style="@style/rollingTextView" />
         </android.support.v7.widget.Toolbar>
 

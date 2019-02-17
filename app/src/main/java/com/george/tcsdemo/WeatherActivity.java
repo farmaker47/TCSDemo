@@ -258,6 +258,8 @@ public class WeatherActivity extends AppCompatActivity {
         recyclerView.scheduleLayoutAnimation();
     }
 
+    //
+
 
 }
 
