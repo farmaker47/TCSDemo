@@ -9,7 +9,9 @@ App uses *Google Maps*, *Retrofit*, *Volley*, *Espresso*, *Custom Views*(custom 
 
 Application handles internet connection status and both automatic and manual input of address to fetch specific location. For automatic location *security exception* is handled after Marshmallow. For manual location user writes address inside edittext field and google api fetch location. Because *geocoder.getLocationFromName* didn't work app uses Volley library to fetch json from google maps api which provides coordinates from address. After fetching coordinates we find location with *geocoder.getLocation*. App handles false input of address!
 
-MapsActivity handles **rotation** and doesn't reload map. In addition when search of address has begun, after rotation keeps waiting for result address. Snackbar appears after adding a marker on the map to inform user to check location and click the ballon's marker to go to next screen to find weather forecast.
+MapsActivity handles **rotation** and doesn't reload map. In addition when search of address has begun, after rotation keeps waiting for result address. Snackbar appears after adding a marker on the map to inform user to check location and click the ballon's marker to go to next screen to find weather forecast. 
+
+***User has to click the address window of the marker to go to second screen.***
 
 ### This is the second screen
 ![screenshot_2019-02-17-01-32-46-989](https://user-images.githubusercontent.com/26084498/52906428-51a63700-3254-11e9-8cc2-7596b5b102cc.jpeg)
