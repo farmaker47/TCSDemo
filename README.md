@@ -21,9 +21,13 @@ Espresso has been used to perform some simple test. It handles check for interne
 
 ### Other features are:
 *Icons at recycler view have been added as .xml to look perfect in different screen sizes
+
 *Different layout has been made for bigger screens like tablets
+
 *All strings are in strings.xml to help for apps translation
+
 *All dimens are in dimens.xml
+
 *Styles have been created for different Views
 
 ### Enjoy
